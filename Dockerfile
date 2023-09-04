@@ -1,3 +1,3 @@
-FROM python:3.10
+FROM python:3.11
 ADD main.py .
 CMD [ "python", "main.py" ]
